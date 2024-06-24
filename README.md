@@ -30,7 +30,6 @@ This repository offers a comprehensive template designed to streamline the deplo
 3. Copy the `.env.example` file to create a `.env` file and update the environmental variables:
    ```bash
    cp .env.example .env
-   # Edit the .env file to set APACHE_PORT, DB_PORT, PROJECT_PATH, and DB_PASSWORD
    ```
 
 4. Adjust the Dockerfile and docker-compose.yml as necessary to reflect the correct project directory and configure the ports for the Apache web server and SQL server.
@@ -38,7 +37,6 @@ This repository offers a comprehensive template designed to streamline the deplo
 5. Build and launch the containers:
    ```bash
    docker-compose up --build
-   ```
    ```
 
 ## Usage
